@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.admin.AdminHomeController">
+   <children>
+      <AnchorPane layoutX="500.0" prefHeight="50.0" prefWidth="900.0" style="-fx-background-color: red;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="410.0" layoutY="8.0" text="Admin Panel" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXHamburger fx:id="slide_burger" layoutX="19.0" layoutY="16.0" stylesheets="@../../utility/style.css" AnchorPane.leftAnchor="10.0" />
+         </children>
+      </AnchorPane>
+      <StackPane fx:id="anchor" layoutY="50.0" prefHeight="600.0" prefWidth="900.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <JFXDrawer fx:id="slide" defaultDrawerSize="200.0" layoutY="50.0" prefHeight="600.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="50.0" />
+   </children>
+</AnchorPane>

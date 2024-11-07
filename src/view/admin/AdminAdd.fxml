@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="600.0" prefWidth="900.0" stylesheets="@../../utility/style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.admin.AdminAddController">
+   <children>
+      <AnchorPane prefHeight="50.0" prefWidth="900.0" />
+      <Label layoutX="382.0" layoutY="59.0" text="Add Admin" textFill="#da1e1e">
+         <font>
+            <Font name="Times New Roman Bold" size="27.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="197.0" layoutY="96.0" prefHeight="492.0" prefWidth="500.0" style="-fx-background-color: white;" styleClass="sign_in">
+         <children>
+            <AnchorPane layoutX="44.0" layoutY="67.0" prefHeight="134.0" prefWidth="148.0" style="-fx-border-color: red;">
+               <children>
+                  <ImageView fitHeight="128.0" fitWidth="141.0" layoutX="9.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../image/add_person.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button fx:id="register_id" alignment="CENTER" contentDisplay="CENTER" layoutX="281.0" layoutY="104.0" mnemonicParsing="false" onAction="#btn_register" prefHeight="30.0" prefWidth="148.0" style="-fx-background-color: red;" text="Register" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="27.0" layoutY="237.0" prefHeight="35.0" prefWidth="200.0" style="-fx-border-color: red;">
+               <children>
+                  <TextField fx:id="tf_name" layoutX="1.0" layoutY="2.0" prefHeight="35.0" prefWidth="200.0" promptText="Enter Admin Name" style="-fx-background-color: transparent;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="27.0" layoutY="324.0" prefHeight="35.0" prefWidth="200.0" style="-fx-border-color: red;">
+               <children>
+                  <DatePicker fx:id="tf_dob" layoutX="2.0" layoutY="2.0" prefHeight="35.0" prefWidth="200.0" promptText="Birth Of Date" style="-fx-background-color: transparent;" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="27.0" layoutY="412.0" prefHeight="35.0" prefWidth="200.0" style="-fx-border-color: red;">
+               <children>
+                  <TextField fx:id="tf_phone" layoutX="1.0" layoutY="2.0" prefHeight="35.0" prefWidth="200.0" promptText="Enter Phone Number" style="-fx-background-color: transparent;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="271.0" layoutY="237.0" prefHeight="35.0" prefWidth="200.0" style="-fx-border-color: red;">
+               <children>
+                  <PasswordField fx:id="tf_password" layoutX="1.0" layoutY="2.0" prefHeight="35.0" prefWidth="200.0" promptText="Enter Password" style="-fx-background-color: transparent;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </PasswordField>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="271.0" layoutY="324.0" prefHeight="35.0" prefWidth="200.0" style="-fx-border-color: red;">
+               <children>
+                  <TextField fx:id="tf_address" layoutX="1.0" layoutY="2.0" prefHeight="35.0" prefWidth="200.0" promptText="Enter Adress" style="-fx-background-color: transparent;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="271.0" layoutY="411.0" prefHeight="35.0" prefWidth="200.0" style="-fx-border-color: red;">
+               <children>
+                  <ComboBox fx:id="tf_gender" layoutX="1.0" layoutY="2.0" prefHeight="35.0" prefWidth="200.0" promptText="Gender" style="-fx-background-color: transparent;" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+      <AnchorPane layoutX="197.0" layoutY="96.0" prefHeight="44.0" prefWidth="500.0" style="-fx-background-color: red; -fx-background-radius: 10 10 0 0;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Label layoutX="33.0" layoutY="8.0" text="Admin Details" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

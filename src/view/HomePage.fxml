@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomePageController">
+   <children>
+      <VBox layoutX="6.0" prefHeight="600.0" prefWidth="542.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane fx:id="anchor2" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+               <children>
+                  <HBox alignment="CENTER" layoutX="-2.0" prefHeight="200.0" prefWidth="549.0" style="-fx-background-color: #988c8c;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="353.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Button accessibleText="blood" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #f22b2b; -fx-background-radius: 200;" text="Blood" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/Water_100px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="-1.0" layoutY="200.0" prefHeight="200.0" prefWidth="549.0" spacing="15.0" style="-fx-background-color: #988c8c;" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="352.0" AnchorPane.topAnchor="200.0">
+                     <children>
+                        <Button accessibleText="transfer" contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #f22b2b; -fx-background-radius: 200;" text="Transfer" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/transfer.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button accessibleText="donation" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #f22b2b; -fx-background-radius: 200;" text="Donation" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/donation.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button accessibleText="records" contentDisplay="TOP" layoutX="59.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #f22b2b; -fx-background-radius: 200;" text="Records" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/record.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="-1.0" layoutY="400.0" prefHeight="200.0" prefWidth="549.0" style="-fx-background-color: #988c8c;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="352.0">
+                     <children>
+                        <Button accessibleText="admin" contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #f22b2b; -fx-background-radius: 200;" text="Admin" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/admin.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <VBox layoutX="546.0" prefHeight="600.0" prefWidth="353.0" style="-fx-background-color: #bf3939;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label layoutX="41.0" layoutY="372.0" text="Blood Bank System" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="283.0" layoutY="24.0" mnemonicParsing="false" onAction="#btn_logout" style="-fx-background-color: transparent;" />
+                  <Label layoutX="106.0" layoutY="270.0" text="Welcome" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="35.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="282.0" layoutY="24.0" mnemonicParsing="false" onAction="#btn_exit" text="Exit" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

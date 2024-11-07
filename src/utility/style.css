@@ -1,0 +1,8 @@
+.jfx-hamburger StackPane{
+    -fx-background-color: white;
+    -fx-background-radius: 2px;
+}
+.sign_in{
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian,rgba(0.0,0.0,0.0,0.8),3.0,0.0,0.0,0.0);
+}

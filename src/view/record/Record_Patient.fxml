@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.record.RecordPatientController">
+   <children>
+      <TextField fx:id="tf_search" layoutX="171.0" layoutY="40.0" prefHeight="37.0" prefWidth="441.0" promptText="Search by patient name or transfer date">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Button layoutX="634.0" layoutY="39.0" mnemonicParsing="false" onAction="#btn_search" prefHeight="37.0" prefWidth="74.0" style="-fx-background-color: red;" text="Search" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tv_patient" layoutX="52.0" layoutY="87.0" prefHeight="435.0" prefWidth="814.0">
+         <columns>
+            <TableColumn fx:id="col_id" prefWidth="85.66667175292969" text="ID" />
+            <TableColumn fx:id="col_name" prefWidth="249.3333282470703" text="Patient Name" />
+            <TableColumn fx:id="col_blood_type" prefWidth="176.111083984375" text="Blood Type" />
+            <TableColumn fx:id="col_transfer_date" prefWidth="153.22225952148438" text="Transfer Date" />
+            <TableColumn fx:id="col_no_of_bags" prefWidth="150.33334350585938" text="Number of Bags" />
+         </columns>
+      </TableView>
+      <Button layoutX="27.0" layoutY="533.0" mnemonicParsing="false" onAction="#report_back" prefHeight="37.0" prefWidth="74.0" style="-fx-background-color: red;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

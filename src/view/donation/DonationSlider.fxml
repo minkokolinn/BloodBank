@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="DonateSlide" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.donation.DonateSlider">
+   <children>
+      <AnchorPane prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <Button accessibleText="home" layoutX="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="172.0" style="-fx-background-color: transparent;" text="Home" textFill="RED">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/home.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <Button accessibleText="view" layoutX="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="172.0" style="-fx-background-color: transparent;" text="View Donator List" textFill="RED">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/eye1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="45.0" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <Button accessibleText="add_donator" layoutX="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="172.0" style="-fx-background-color: transparent;" text="Add Donator" textFill="RED">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/add1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="80.0" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <Button accessibleText="donate" layoutX="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="172.0" style="-fx-background-color: transparent;" text="Donate" textFill="RED">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/water.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="115.0" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <Button accessibleText="exit_donate" layoutX="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="172.0" style="-fx-background-color: transparent;" text="Exit" textFill="RED">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/exit1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
